@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>SleepEasy - Your Assist for Restful Sleep</title>
+</head>
+
+<body class="p-3">
+    <nav class="navbar justify-content-center">
+        <ul class="nav nav-pills text-center">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Resources</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./lullabies.html">Lullabies</a></li>
+                    <li><a class="dropdown-item" href="#">Meditation posture</a></li>
+                    <li><a class="dropdown-item" href="#">Calming music</a></li>
+                    <li><a class="dropdown-item" href="#">Funny</a></li>
+                    <li><a class="dropdown-item" href="./interesting-facts.html">Interesting facts</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./tipsAndAdvice.html">Tips & Advice</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./forum.html" aria-label="Forum">Forum</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacts.html">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="slide-in-from-left" id="messageForLullaby"><i class="fas fas fa-music"></i>
+        Listen to our lullabies. <br> To play a track, simply hover over the image and click on it.
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 audio-container">
+        <div class="col">
+            <div class="card">
+                <img src="./public/assets/img/sleeping-baby-1.webp" class="card-img-top" alt="Sleeping Baby">
+
+
+                <div class="collapse" id="voteCollapse1">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse1" aria-expanded="false" aria-controls="voteCollapse1">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">Brahms Lullaby</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/brahms-lullaby.mp3" controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src="./public/assets/img/sleeping-baby-2.webp" class="card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse2">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse2" aria-expanded="false" aria-controls="voteCollapse2">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">She-bear's Lullaby (from Soviet animated film 'Umka')</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/Dlya-Detey.com-Kolybelnaya-medvedicy.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-3.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse3">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse3" aria-expanded="false" aria-controls="voteCollapse3">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">Green Carriage by Alexander Sukhanov</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/kolybel-nye-pesni-zelenaya-kareta.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-4.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse4">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse4" aria-expanded="false" aria-controls="voteCollapse4">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">The Lullaby from 'The Tale of the Star Boy' movie (1983)</p>
+                    <audio id="audio-player1"
+                        src="./public/assets/tracks/deti-online.com_-_son-son-iz-k-f-skazka-o-zvezdnom-malchike.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-5.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse5">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse5" aria-expanded="false" aria-controls="voteCollapse5">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">The Lullaby by Anna German</p>
+                    <audio id="audio-player1"
+                        src="./public/assets/tracks/deti-online.com_-_kolybelnaya-synu-anna-german.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-6.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse6">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse6" aria-expanded="false" aria-controls="voteCollapse6">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">Lavender's Blue (Dilly Dilly)</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/lavenders-blue-iz-kf-zolushka.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-7.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse7">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse7" aria-expanded="false" aria-controls="voteCollapse7">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">Nighty Night by Jane Sherberg</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/nighty-night.mp3" controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-8.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse8">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse8" aria-expanded="false" aria-controls="voteCollapse8">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">Twinkle Twinkle Little Star (based on a 19th-century English poem, written by
+                        Jane Taylor)</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/twinkle-twinkle-little-star.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-9.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse9">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse9" aria-expanded="false" aria-controls="voteCollapse9">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">'The Aquarium' from 'The Carnival Of The Animals' by Camille Saint-Saëns</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/akvarium-iz-syuity-karnaval-zhivotnyh.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-10.jpg" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse10">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse10" aria-expanded="false" aria-controls="voteCollapse10">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">'The Swan' from 'The Carnival Of The Animals' by Camille Saint-Saëns</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/lebed-iz-syuity-karnaval-zhivotnyh.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-11.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse11">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse11" aria-expanded="false" aria-controls="voteCollapse11">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">Melody from the opera 'Orpheus and Eurydice' by Christoph Willibald Gluck</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/melodiya-iz-opery-orfej.mp3" controls></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card">
+                <img src=" ./public/assets/img/sleeping-baby-12.webp" class=" card-img-top" alt="Sleeping Baby">
+
+                <div class="collapse" id="voteCollapse12">
+                    <div class="card card-body">
+                        <p>Did you like this track?</p>
+                        <button class="btn btn-success">Yes</button>
+                        <button class="btn btn-danger">No</button>
+                    </div>
+                </div>
+                <button class="btn btn-primary vote-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#voteCollapse12" aria-expanded="false" aria-controls="voteCollapse12">
+                    Vote
+                </button>
+
+                <div class="card-body">
+                    <p class="card-text">Serenade No. 13 ('Eine kleine Nachtmusik') by Wolfgang Amadeus Mozart</p>
+                    <audio id="audio-player1" src="./public/assets/tracks/malenkaya-nochnaya-serenada.mp3"
+                        controls></audio>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="./scriptsLullabies.js"></script>
+</body>
+
+</html>

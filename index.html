@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>SleepEasy - Your Assist for Restful Sleep</title>
+</head>
+
+<body class="p-3">
+    <nav class="navbar justify-content-center" aria-label="Main navigation">
+        <ul class="nav nav-pills text-center">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html" aria-label="Home"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false" aria-label="Resources dropdown">Resources</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./lullabies.html">Lullabies</a></li>
+                    <li><a class="dropdown-item" href="#">Meditation posture</a></li>
+                    <li><a class="dropdown-item" href="#">Calming music</a></li>
+                    <li><a class="dropdown-item" href="#">Funny</a></li>
+                    <li><a class="dropdown-item" href="./interesting-facts.html">Interesting facts</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./tipsAndAdvice.html" aria-label="Tips & Advice">Tips & Advice</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./forum.html" aria-label="Forum">Forum</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacts.html" aria-label="Contact Us">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row text-center" id="homeInputArea">
+        <div class="user-name-field col-12 col-md-6 col-lg-6">
+            <input type="text" id="name-input" placeholder="Please input your name..." aria-label="Name input">
+            <button type="submit" id="done-btn" aria-label="Submit name"><i
+                    class="fas far fa-check-square"></i></button>
+        </div>
+
+        <div class="search-container col-12 col-md-6 col-lg-6">
+            <input type="search" id="search-input" placeholder="Search..." aria-label="Search">
+            <button type="button" id="search-btn" aria-label="Submit search" value="Submit"><i
+                    class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="welcomeContainer">
+        <div class="row">
+            <h2 class="fade-in-text">
+                <span>Welcome to Sleep Easy, your assist for restful sleep!</span>
+            </h2>
+            <div class="col-12 col-md-12 col-lg-6">
+                <img class="pulse" id="imageCountingSheep" src="./public/assets/img/counting-sheep.png"
+                    alt="A Woman Is Counting Sheep.">
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="article fw-normal" id="welcomeArticle">
+                    <p>Are you struggling with sleepless nights, tossing and turning, or just can't seem to fall asleep?
+                        You're not alone.</p>
+
+                    <p>We're here to provide you with a wealth of resources, expert advice, and personalized solutions
+                        to
+                        transform your bedtime routine and ensure a peaceful slumber. Whether you're seeking relaxation
+                        techniques or
+                        tips for creating the perfect sleep environment, we have you covered.</p>
+
+                    <p>Join our community of fellow sleep-seekers and start your journey towards the restful sleep you
+                        deserve. Say goodbye to sleepless nights and hello to a brighter, more energized tomorrow.
+                    </p>
+
+                    <p>If you have any questions, please <strong><a href="./contacts.html"> contact us</a></strong>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Copyright &copy; 2023 - SleepEasy</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
