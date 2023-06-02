@@ -1,0 +1,148 @@
+{
+    "songs": [
+      {
+        "song_id": "1",
+        "title": "Shape of You",
+        "artist": "Ed Sheeran",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "2",
+        "title": "Believer",
+        "artist": "Imagine Dragons",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "3",
+        "title": "Havana",
+        "artist": "Camila Cabello",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "4",
+        "title": "Uptown Funk",
+        "artist": "Mark Ronson ft. Bruno Mars",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "5",
+        "title": "Don't Stop Believin'",
+        "artist": "Journey",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "6",
+        "title": "Billie Jean",
+        "artist": "Michael Jackson",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "7",
+        "title": "Bohemian Rhapsody",
+        "artist": "Queen",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "8",
+        "title": "Rolling in the Deep",
+        "artist": "Adele",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "9",
+        "title": "Hotel California",
+        "artist": "Eagles",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "10",
+        "title": "All About That Bass",
+        "artist": "Meghan Trainor",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "11",
+        "title": "Smells Like Teen Spirit",
+        "artist": "Nirvana",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "12",
+        "title": "Thinking Out Loud",
+        "artist": "Ed Sheeran",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "13",
+        "title": "Sweet Child o' Mine",
+        "artist": "Guns N' Roses",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "14",
+        "title": "Radioactive",
+        "artist": "Imagine Dragons",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "15",
+        "title": "Hello",
+        "artist": "Adele",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "16",
+        "title": "We Will Rock You",
+        "artist": "Queen",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "17",
+        "title": "Sorry",
+        "artist": "Justin Bieber",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "18",
+        "title": "Livin' on a Prayer",
+        "artist": "Bon Jovi",
+        "genre": "Rock"
+      },
+      {
+        "song_id": "19",
+        "title": "Someone Like You",
+        "artist": "Adele",
+        "genre": "Pop"
+      },
+      {
+        "song_id": "20",
+        "title": "Three Little Birds",
+        "artist": "Bob Marley & The Wailers",
+        "genre": "Reggae"
+      },
+      {
+        "song_id": "21",
+        "title": "Take Five",
+        "artist": "Dave Brubeck Quartet",
+        "genre": "Jazz"
+      },
+      {
+        "song_id": "22",
+        "title": "Fly Me to the Moon",
+        "artist": "Frank Sinatra",
+        "genre": "Jazz"
+      },
+      {
+        "song_id": "23",
+        "title": "Ho Hey",
+        "artist": "The Lumineers",
+        "genre": "Indie rock"
+      },
+      {
+        "song_id": "24",
+        "title": "Riptide",
+        "artist": "Vance Joy",
+        "genre": "Indie rock"
+      }
+    ]
+  }
